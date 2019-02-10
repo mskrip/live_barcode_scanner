@@ -1,0 +1,21 @@
+name: live_barcode_scanner
+description: Flutter plugin for displaying live camera with barcode scanner.
+version: 0.0.1
+author: Marián Skrip <marian.skripp@gmail.com>
+homepage: https://github.com/mskrip/live_barcode_scanner
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  camera: ^0.3.0+3
+  firebase_ml_vision: ^0.4.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
